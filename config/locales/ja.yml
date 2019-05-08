@@ -1,0 +1,47 @@
+ja:
+  activerecord:
+     models:
+        book: '本'
+     attributes:
+        book:                      # モデル名
+            title: 'タイトル'            # モデルの属性名
+            memo: '内容メモ'
+            author: '著者'
+            picture: '写真'   # モデルの属性名
+  books: # app/views/booksを示す
+     index: # app/views/books/indexを示す
+        Books: '書籍一覧'
+        Title: 'タイトル'
+        Memo: '内容メモ'
+        Author: '著者'
+        Picture: '写真'
+        Show: '詳細画面'
+        Edit: '編集'
+        Destroy: '削除'
+        notice: '内容を削除してもよろしいでしょうか？'
+        New Book: '新規登録'
+     new:
+        New Book: '新規登録画面'
+        Back: '戻る'
+     show:
+        Edit: '編集する'
+        Title: 'タイトル:'
+        Memo: '内容メモ:'
+        Author: '著者:'
+        Picture: '写真:'
+        Back: '戻る'
+     edit:
+        Editing Book: '編集画面'
+        Show: '詳細画面'
+        Back: '戻る'
+  helpers:
+     submit:
+        create: '登録する'
+        update: '更新する'
+  flash:
+     create:
+        notice: '無事、内容が登録されました'
+     update:
+        notice: '無事、内容が更新されました'
+     destroy:
+        notice: '無事、内容が削除されました'
