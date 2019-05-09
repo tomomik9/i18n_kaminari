@@ -4,7 +4,7 @@ class BooksController < ApplicationController
   # GET /books
   # GET /books.json
   def index
-    @books = Book.all.page(params[:page]).per(3)
+    @books = Book.page(params[:page]).per(5)
   end
   # GET /books/1
   # GET /books/1.json
