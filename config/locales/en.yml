@@ -32,7 +32,7 @@
 en:
   books: # app/views/booksを示す
      index: # app/views/books/indexを示す
-        notice: 'Aye You Sure?'
+        notice: 'Are You Sure?'
   flash:
      create:
         notice: 'Successfully created.'
