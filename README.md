@@ -1,6 +1,6 @@
 
 # i18n_kaminari
-i18nとkaminariの練習用リポジトリです！
+i18nとkaminariのFjordBootCamp課題提出用リポジトリです。
 
 概要
 * 書籍の登録アプリに下記機能を追加します。
